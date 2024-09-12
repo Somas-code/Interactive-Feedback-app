@@ -1,0 +1,10 @@
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.all .star{
+    background-color: rgba(0, 0, 0, 0.696);
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+}
