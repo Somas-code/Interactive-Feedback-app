@@ -11,4 +11,10 @@ hold.forEach((disp) => {
 sub.addEventListener("click", () => {
   document.querySelector(".all").style.display = "none";
   document.querySelector(".aall").style.display = "flex";
+
+  setTimeout(() => {
+    document.querySelector(".aall").style.display = "none"; // Hide .aall
+    document.querySelector(".all").style.display = "block"; // Show .all again
+  }, 7000); // Time in milliseconds (5000 ms = 5 seconds)
 });
+
